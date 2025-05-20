@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -23,20 +24,31 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
-env/
-.env
-
-# Streamlit
-.streamlit/
-
-# Data files
-data/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+.env
+.env.local
+
+# Streamlit
+.streamlit/
+
+# Data files
+data/
 
 # OS
 .DS_Store
